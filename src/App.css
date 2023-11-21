@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black !important;
+}
+
+.main-container {
+  width: 500px;
+  height: 550px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.container {
+  width: 400px;
+  height: 450px;
+  margin-top: 2rem;
+}
+
+.cal-row {
+  height: 60px;
+  display: flex;
+}
+
+.cal-row > button {
+  width: 80px;
+  height: 50px;
+  margin: 10px;
+}
+
+.user-btn-inp {
+  height: 200px;
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.center-btn > button {
+  width: 40%;
+}
+
+input {
+  height: 60px;
+  width: 100%;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  font-size: 20px !important;
+}
+
+h1 {
+  color: orange !important;
+}
+
+.red-brd {
+  border: 5px solid red;
+}
+
+.black-brd {
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+}
