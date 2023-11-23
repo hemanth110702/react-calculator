@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const Calculator = () => {
-
   const [display, setDisplay] = useState(" ");
   const [brdClr, setBrdClr] = useState(false);
   const allowedCharacters = /^[0-9./*+\- ]*$/;
@@ -12,7 +11,14 @@ const Calculator = () => {
 
   const handleEnter = (e) => {
     if (e.key === "Enter") {
-      setDisplay(eval(display));
+      try {
+        setDisplay(eval(display));
+      } catch (err) {
+        setBrdClr(true);
+        alert(
+          `Your input is not correct\n Possible Errors: \n 1)preceding 0's also not allowed \n 2)only the values present in the below buttons are allowed`
+        );
+      }
     }
   };
 
@@ -23,7 +29,7 @@ const Calculator = () => {
       setBrdClr(false);
     }
   }, [display]);
-  
+
   return (
     <div className="main-container">
       <h1>Calculator</h1>
