@@ -1,8 +1,46 @@
-# React + Vite
+# React Calculator
+Welcome to the React Calculator! This project is a versatile and user-friendly calculator built with React, providing essential arithmetic functionalities and a modern interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Basic Arithmetic Operations: Perform addition, subtraction, multiplication, and division.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React
+- CSS for styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/react-calculator.git
+    cd react-calculator
+
+2. Install dependencies:
+    ```bash
+    npm install
+
+3. Start the development server:
+    ```bash
+    npm start
+
+## Screenshot
+
+<table>
+    <tr>
+        <th>Desktop View</th>
+        <th>Mobile View</th>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: left;font-weight: bold;">Home</td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/hemanth110702/react-calculator/assets/89832451/ddfdb2ea-d6a9-4d2c-a381-7c605455e34f" width="100%" title="Desktop view - Home"/>
+        </td>
+        <td>
+            <img src="https://github.com/hemanth110702/react-calculator/assets/89832451/1763769c-fcf3-4eda-b3c7-db7d04ff0fe0" width="100%" title="Mobile view - Home"/>
+        </td>
+    </tr>
+</table>
+
+## [LIVE SITE](https://arthimetic-react-calc.netlify.app/)
