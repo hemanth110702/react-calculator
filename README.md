@@ -1,12 +1,28 @@
+<div id="top"></div>
+
 # React Calculator
+
+<details>
+<summary>Table of contents</summary>
+
+-   [Overview](#overview)
+-   [Technology Stack](#technology-stack)
+-   [Getting Started](#getting-started)
+-   [Features](#features)
+-   [Screenshots](#screenshots)
+-   [Link](#link)
+
+</details>
+
+## Overview
+
 Welcome to the React Calculator! This project is a versatile and user-friendly calculator built with React, providing essential arithmetic functionalities and a modern interface.
 
-## Features
-- Basic Arithmetic Operations: Perform addition, subtraction, multiplication, and division.
-
-## Technologies Used
+## Technology Stack
 - React
-- CSS for styling
+- HTML
+- CSS
+- JS
 
 ## Getting Started
 
@@ -14,16 +30,22 @@ Welcome to the React Calculator! This project is a versatile and user-friendly c
     ```bash
     git clone https://github.com/your-username/react-calculator.git
     cd react-calculator
+    ```
 
 2. Install dependencies:
     ```bash
     npm install
+    ```
 
 3. Start the development server:
     ```bash
     npm start
+    ```
 
-## Screenshot
+## Features
+- Basic Arithmetic Operations: Perform addition, subtraction, multiplication, and division.
+
+## Screenshots
 
 <table>
     <tr>
@@ -43,4 +65,7 @@ Welcome to the React Calculator! This project is a versatile and user-friendly c
     </tr>
 </table>
 
-## [LIVE SITE](https://arthimetic-react-calc.netlify.app/)
+## Link
+[🚀 Live Page](https://arthimetic-react-calc.netlify.app/)
+
+<p align="right"><a href="#top">⬆️ Back to Top</a></p>
